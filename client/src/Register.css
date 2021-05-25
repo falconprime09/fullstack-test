@@ -1,0 +1,38 @@
+.container {
+  padding: 30px;
+  height: 800px;
+  width: 83%;
+  /* background-color: #ff3300; */
+  /* margin: 13px 0px 0px 169px; */
+  align-items: center;
+  /* margin: 94px 0px 0px 334px; */
+}
+.log {
+  text-align: center;
+  height: 40%;
+  width: 50%;
+  background-color: rgb(150, 238, 91);
+  /* margin: 94px 0px 0px 334px; */
+  -ms-flex-item-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.textbox {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.submit-button {
+  border-radius: 20px;
+  height: 45px;
+  width: 136px;
+  padding: 15px 30px;
+  margin-left: 10px;
+  color: rgb(1, 1, 2);
+  cursor: pointer;
+}

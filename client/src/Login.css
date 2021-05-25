@@ -1,0 +1,16 @@
+.container {
+  padding: 30px;
+  height: 800px;
+  width: 83%;
+  /* background-color: #ff3300; */
+  margin: 13px 0px 0px 169px;
+  align-items: center;
+  /* margin: 94px 0px 0px 334px; */
+}
+.log {
+  text-align: center;
+  height: 40%;
+  width: 50%;
+  background-color: cornsilk;
+  margin: 94px 0px 0px 334px;
+}

@@ -1,0 +1,57 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(195, 233, 236);
+  float: left;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}
+.navelement1 {
+  height: 100%;
+  width: 65%;
+  float: left;
+  text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar li {
+  float: left;
+}
+.navbar a {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.navbar Link {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.navelement2 {
+  height: 50px;
+  width: 30%;
+
+  align-items: center;
+  float: right;
+  padding: 15px;
+}
+.search-box {
+  /* margin-left: 15px; */
+  height: 45px;
+  width: 350px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+}
+.search-botton {
+  border-radius: 20px;
+  height: 45px;
+  width: 136px;
+  padding: 15px 30px;
+  margin-left: 10px;
+  color: rgb(1, 1, 2);
+  cursor: pointer;
+}

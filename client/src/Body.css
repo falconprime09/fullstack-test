@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+.contentbody {
+  height: 95%;
+  width: 100%;
+}
+.test {
+  padding: 30px;
+  height: 800px;
+  width: 83%;
+  background-color: rgb(123, 255, 0);
+  margin: 13px 0px 0px 169px;
+}
