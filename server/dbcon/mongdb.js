@@ -8,7 +8,7 @@ const mondb = new mongoose.Schema({
     type: String,
     required: true,
   },
-  emil_id: {
+  email_id: {
     type: String,
     required: true,
   },

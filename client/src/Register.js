@@ -6,8 +6,9 @@ const Register = () => {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
+  axios.defaults.withCredentials = true;
   const handleSubmit = () => {
-    axios.post("http://localhost:3000/register", {
+    axios.post("http://localhost:3010/register", {
       username: user,
       password: password,
       email_id: email,

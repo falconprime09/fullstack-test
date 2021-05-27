@@ -1,16 +1,21 @@
 import "./Login.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [loginStatus, setLoginStatus] = useState("");
+  // const [loginStatus, setLoginStatus] = useState("");
   const handleLogin = () => {
-    if ((username === "admin") & (password === "password")) {
-      setLoginStatus(true);
-    } else {
-      console.log("user  is loggin in");
-    }
+    axios
+      .post("http://localhost:3010/login", {
+        username: username,
+        password: password,
+      })
+      .then((result) => {
+        console.log(result);
+      });
+    console.log("user data submitted");
   };
   return (
     <div className="container">
